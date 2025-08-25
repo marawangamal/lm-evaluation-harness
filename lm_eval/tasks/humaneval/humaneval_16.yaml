@@ -1,5 +1,5 @@
 include: humaneval.yaml
-task: humaneval_64
+task: humaneval_16
 repeats: 16
 metric_list:
   - metric: !function utils.pass_at_k
